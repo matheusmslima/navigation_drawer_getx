@@ -11,7 +11,7 @@ class HomePage extends GetView<HomeController> {
     return Scaffold(
       appBar: AppBar(title: const Text('HomePage')),
       body: const Center(child: Text('HomePage')),
-      drawer: AppDrawerPage(),
+      // drawer: AppDrawerPage(),
     );
   }
 }
